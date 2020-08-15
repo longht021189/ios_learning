@@ -15,6 +15,8 @@
 		FEC01AA724E7900300D5B121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC01AA524E7900300D5B121 /* LaunchScreen.storyboard */; };
 		FEC01AB224E7900300D5B121 /* ios_learningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC01AB124E7900300D5B121 /* ios_learningTests.swift */; };
 		FEC01ABD24E7900300D5B121 /* ios_learningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC01ABC24E7900300D5B121 /* ios_learningUITests.swift */; };
+		FEC01ACB24E791BF00D5B121 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FEC01ACA24E791BF00D5B121 /* Cartfile */; };
+		FEC01ACD24E7924600D5B121 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FEC01ACC24E7924600D5B121 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		FEC01AB824E7900300D5B121 /* ios_learningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_learningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC01ABC24E7900300D5B121 /* ios_learningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_learningUITests.swift; sourceTree = "<group>"; };
 		FEC01ABE24E7900300D5B121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEC01ACA24E791BF00D5B121 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FEC01ACC24E7924600D5B121 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		FEC01ACE24E792B500D5B121 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,9 @@
 		FEC01A8E24E7900200D5B121 = {
 			isa = PBXGroup;
 			children = (
+				FEC01ACE24E792B500D5B121 /* README.md */,
+				FEC01ACC24E7924600D5B121 /* .gitignore */,
+				FEC01ACA24E791BF00D5B121 /* Cartfile */,
 				FEC01A9924E7900200D5B121 /* ios_learning */,
 				FEC01AB024E7900300D5B121 /* ios_learningTests */,
 				FEC01ABB24E7900300D5B121 /* ios_learningUITests */,
@@ -232,8 +240,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEC01ACD24E7924600D5B121 /* .gitignore in Resources */,
 				FEC01AA724E7900300D5B121 /* LaunchScreen.storyboard in Resources */,
 				FEC01AA424E7900300D5B121 /* Assets.xcassets in Resources */,
+				FEC01ACB24E791BF00D5B121 /* Cartfile in Resources */,
 				FEC01AA224E7900200D5B121 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
