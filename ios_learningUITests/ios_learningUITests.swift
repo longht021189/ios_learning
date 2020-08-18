@@ -2,7 +2,7 @@
 //  ios_learningUITests.swift
 //  ios_learningUITests
 //
-//  Created by Thanh Long on 8/15/20.
+//  Created by Thanh Long on 8/17/20.
 //  Copyright © 2020 Thanh Long. All rights reserved.
 //
 
