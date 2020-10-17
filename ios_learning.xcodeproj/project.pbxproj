@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE03E75E24EAE49C00E69FE8 /* RootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE03E75924EAE49C00E69FE8 /* RootVC.xib */; };
-		FE03E75F24EAE49C00E69FE8 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE03E75A24EAE49C00E69FE8 /* RootRouter.swift */; };
-		FE03E76024EAE49C00E69FE8 /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE03E75B24EAE49C00E69FE8 /* RootBuilder.swift */; };
-		FE03E76124EAE49C00E69FE8 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE03E75C24EAE49C00E69FE8 /* RootInteractor.swift */; };
-		FE03E76224EAE49C00E69FE8 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE03E75D24EAE49C00E69FE8 /* RootVC.swift */; };
+		FEA530D624EC2721003BE19A /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA530D124EC2721003BE19A /* RootRouter.swift */; };
+		FEA530D724EC2721003BE19A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA530D224EC2721003BE19A /* RootViewController.swift */; };
+		FEA530D824EC2721003BE19A /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA530D324EC2721003BE19A /* RootBuilder.swift */; };
+		FEA530D924EC2721003BE19A /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA530D424EC2721003BE19A /* RootInteractor.swift */; };
+		FEA530DA24EC2721003BE19A /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA530D524EC2721003BE19A /* RootViewController.xib */; };
+		FEA530F024EC2C83003BE19A /* EurekaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA530EF24EC2C83003BE19A /* EurekaViewController.swift */; };
+		FEA530F724EC31A3003BE19A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA5309D24EC203A003BE19A /* RxCocoa.framework */; };
+		FEA530F824EC31A3003BE19A /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FEA5309D24EC203A003BE19A /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FEA530F924EC31A3003BE19A /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA5309E24EC203A003BE19A /* RxRelay.framework */; };
+		FEA530FA24EC31A3003BE19A /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FEA5309E24EC203A003BE19A /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FEA530FB24EC31A3003BE19A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA5309F24EC203A003BE19A /* RxSwift.framework */; };
+		FEA530FC24EC31A3003BE19A /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FEA5309F24EC203A003BE19A /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FEA530FD24EC31A3003BE19A /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA530A024EC203A003BE19A /* RxTest.framework */; };
+		FEA530FE24EC31A3003BE19A /* RxTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FEA530A024EC203A003BE19A /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FEB8232024EAD9E5008FEDB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB8231F24EAD9E5008FEDB6 /* AppDelegate.swift */; };
 		FEB8232224EAD9E5008FEDB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB8232124EAD9E5008FEDB6 /* SceneDelegate.swift */; };
 		FEB8232424EAD9E5008FEDB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB8232324EAD9E5008FEDB6 /* ViewController.swift */; };
@@ -39,12 +48,37 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FEA530FF24EC31A3003BE19A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FEA530FE24EC31A3003BE19A /* RxTest.framework in Embed Frameworks */,
+				FEA530F824EC31A3003BE19A /* RxCocoa.framework in Embed Frameworks */,
+				FEA530FC24EC31A3003BE19A /* RxSwift.framework in Embed Frameworks */,
+				FEA530FA24EC31A3003BE19A /* RxRelay.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		FE03E75924EAE49C00E69FE8 /* RootVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootVC.xib; sourceTree = "<group>"; };
-		FE03E75A24EAE49C00E69FE8 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
-		FE03E75B24EAE49C00E69FE8 /* RootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
-		FE03E75C24EAE49C00E69FE8 /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
-		FE03E75D24EAE49C00E69FE8 /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
+		FEA5309924EC140E003BE19A /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eureka.framework; path = Carthage/Build/iOS/Eureka.framework; sourceTree = "<group>"; };
+		FEA5309C24EC203A003BE19A /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		FEA5309D24EC203A003BE19A /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		FEA5309E24EC203A003BE19A /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		FEA5309F24EC203A003BE19A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		FEA530A024EC203A003BE19A /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		FEA530A124EC203A003BE19A /* RIBs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RIBs.framework; path = Carthage/Build/iOS/RIBs.framework; sourceTree = "<group>"; };
+		FEA530D124EC2721003BE19A /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		FEA530D224EC2721003BE19A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		FEA530D324EC2721003BE19A /* RootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
+		FEA530D424EC2721003BE19A /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
+		FEA530D524EC2721003BE19A /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		FEA530EF24EC2C83003BE19A /* EurekaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaViewController.swift; sourceTree = "<group>"; };
 		FEB8231C24EAD9E5008FEDB6 /* ios_learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB8231F24EAD9E5008FEDB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEB8232124EAD9E5008FEDB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +100,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA530FD24EC31A3003BE19A /* RxTest.framework in Frameworks */,
+				FEA530F724EC31A3003BE19A /* RxCocoa.framework in Frameworks */,
+				FEA530FB24EC31A3003BE19A /* RxSwift.framework in Frameworks */,
+				FEA530F924EC31A3003BE19A /* RxRelay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,19 +127,41 @@
 		FE03E75724EAE44C00E69FE8 /* RIBs */ = {
 			isa = PBXGroup;
 			children = (
-				FE03E75824EAE48300E69FE8 /* Root */,
+				FEA530B224EC2093003BE19A /* Root */,
 			);
 			path = RIBs;
 			sourceTree = "<group>";
 		};
-		FE03E75824EAE48300E69FE8 /* Root */ = {
+		FEA5309824EC140E003BE19A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FE03E75924EAE49C00E69FE8 /* RootVC.xib */,
-				FE03E75A24EAE49C00E69FE8 /* RootRouter.swift */,
-				FE03E75B24EAE49C00E69FE8 /* RootBuilder.swift */,
-				FE03E75C24EAE49C00E69FE8 /* RootInteractor.swift */,
-				FE03E75D24EAE49C00E69FE8 /* RootVC.swift */,
+				FEA530A124EC203A003BE19A /* RIBs.framework */,
+				FEA5309C24EC203A003BE19A /* RxBlocking.framework */,
+				FEA5309D24EC203A003BE19A /* RxCocoa.framework */,
+				FEA5309E24EC203A003BE19A /* RxRelay.framework */,
+				FEA5309F24EC203A003BE19A /* RxSwift.framework */,
+				FEA530A024EC203A003BE19A /* RxTest.framework */,
+				FEA5309924EC140E003BE19A /* Eureka.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEA5309B24EC177D003BE19A /* Eureka */ = {
+			isa = PBXGroup;
+			children = (
+				FEA530EF24EC2C83003BE19A /* EurekaViewController.swift */,
+			);
+			path = Eureka;
+			sourceTree = "<group>";
+		};
+		FEA530B224EC2093003BE19A /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				FEA530D124EC2721003BE19A /* RootRouter.swift */,
+				FEA530D224EC2721003BE19A /* RootViewController.swift */,
+				FEA530D324EC2721003BE19A /* RootBuilder.swift */,
+				FEA530D424EC2721003BE19A /* RootInteractor.swift */,
+				FEA530D524EC2721003BE19A /* RootViewController.xib */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -113,6 +173,7 @@
 				FEB8233524EAD9E7008FEDB6 /* ios_learningTests */,
 				FEB8234024EAD9E7008FEDB6 /* ios_learningUITests */,
 				FEB8231D24EAD9E5008FEDB6 /* Products */,
+				FEA5309824EC140E003BE19A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +190,7 @@
 		FEB8231E24EAD9E5008FEDB6 /* ios_learning */ = {
 			isa = PBXGroup;
 			children = (
+				FEA5309B24EC177D003BE19A /* Eureka */,
 				FE03E75724EAE44C00E69FE8 /* RIBs */,
 				FEB8231F24EAD9E5008FEDB6 /* AppDelegate.swift */,
 				FEB8232124EAD9E5008FEDB6 /* SceneDelegate.swift */,
@@ -169,6 +231,7 @@
 				FEB8231824EAD9E5008FEDB6 /* Sources */,
 				FEB8231924EAD9E5008FEDB6 /* Frameworks */,
 				FEB8231A24EAD9E5008FEDB6 /* Resources */,
+				FEA530FF24EC31A3003BE19A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,9 +326,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE03E75E24EAE49C00E69FE8 /* RootVC.xib in Resources */,
 				FEB8232C24EAD9E7008FEDB6 /* LaunchScreen.storyboard in Resources */,
 				FEB8232924EAD9E7008FEDB6 /* Assets.xcassets in Resources */,
+				FEA530DA24EC2721003BE19A /* RootViewController.xib in Resources */,
 				FEB8232724EAD9E5008FEDB6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,13 +354,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE03E76124EAE49C00E69FE8 /* RootInteractor.swift in Sources */,
-				FE03E76224EAE49C00E69FE8 /* RootVC.swift in Sources */,
-				FE03E75F24EAE49C00E69FE8 /* RootRouter.swift in Sources */,
+				FEA530D724EC2721003BE19A /* RootViewController.swift in Sources */,
+				FEA530F024EC2C83003BE19A /* EurekaViewController.swift in Sources */,
+				FEA530D624EC2721003BE19A /* RootRouter.swift in Sources */,
+				FEA530D924EC2721003BE19A /* RootInteractor.swift in Sources */,
 				FEB8232424EAD9E5008FEDB6 /* ViewController.swift in Sources */,
-				FE03E76024EAE49C00E69FE8 /* RootBuilder.swift in Sources */,
 				FEB8232024EAD9E5008FEDB6 /* AppDelegate.swift in Sources */,
 				FEB8232224EAD9E5008FEDB6 /* SceneDelegate.swift in Sources */,
+				FEA530D824EC2721003BE19A /* RootBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +535,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ios_learning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -488,6 +556,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ios_learning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
